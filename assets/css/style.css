@@ -1,11 +1,35 @@
 body {
     background-color: peachpuff;
+    cursor: pointer;
   
 }
 
 button {
 
     background-color: palegreen;
+    font-family: 'Reenie Beanie', cursive;
     color: white;
+    padding: 10px;
+
 }
 
+p {
+
+    font-family: 'Reenie Beanie', cursive; 
+    color: white;
+    font-weight: bold;
+    font-size: 35px;  
+}
+
+label {
+
+    font-family: 'Reenie Beanie', cursive; 
+    color: white;
+    font-weight: bold;
+    font-size: 18px;  
+}
+
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Reenie Beanie', cursive; 
