@@ -1,35 +1,86 @@
-body {
-    background-color: peachpuff;
-    cursor: pointer;
-  
-}
+    body    {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: black;
+        background-color: peachpuff;
+    }
 
-button {
+    
+    .gifDiv {
+      
+        float: left;
+        margin: 3px;      
+     
+     }
+    
+    
+    .container {
+       padding: 20px;
 
-    background-color: palegreen;
+    } 
+    
+    .jumbotron {
+        background-color: skyblue;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 50px;
+        height: 25%;
+    }
+    
+    
+  #footer {
+
+        text-align: center;
+        background-color: grey;
+        margin-top: 15%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 25%;
+        padding-top: 5px;
+           
+    } 
+
+    .footer {
+
+        width: 100%;
+        margin-right: 0;
+    }
+
+   
+    
+    
+    h1, h2, label, h4, legend, button {
+    
     font-family: 'Reenie Beanie', cursive;
-    color: white;
-    padding: 10px;
-
-}
-
-p {
-
-    font-family: 'Reenie Beanie', cursive; 
-    color: white;
+    color: white  !important;
     font-weight: bold;
-    font-size: 35px;  
-}
+    
+    }
+    
+    label, h2, legend {
+    
+    font-size: 24px;
+    
+    }
+    
+    
+    .btn {
+    
+    background-color: palegreen;
+    border-style: none;
+    font-size: 20px;
+    margin-right:5px;
+    margin-left: 5px;
+    float:left;
 
-label {
-
-    font-family: 'Reenie Beanie', cursive; 
-    color: white;
-    font-weight: bold;
-    font-size: 18px;  
-}
-
-
-/* font-family: 'Amatic SC', cursive;
-font-family: 'Dawning of a New Day', cursive;
-font-family: 'Reenie Beanie', cursive; 
+    }
+    
+    #addShow, #removeShow {
+    
+        font-size: 10px;
+        background-color: lightgrey;
+        border-style: none;
+    
+    }
+    
+    
