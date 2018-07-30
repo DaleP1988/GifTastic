@@ -67,7 +67,7 @@ $( document ).ready(function() {
               var gifDiv = $("<div>"); //make div for the gifs
               gifDiv.addClass("gifDiv");
               // access rating
-              var gifRating = $("<p>").text("Rating: " + results[i].rating);
+              var gifRating = $("<p>").text("rating: " + results[i].rating);
               gifDiv.append(gifRating);
               // connect to gif
               var gifImage = $("<img>");

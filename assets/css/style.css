@@ -74,6 +74,15 @@
     float:left;
 
     }
+
+    p {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+
+    }
     
     #addShow, #removeShow {
     
